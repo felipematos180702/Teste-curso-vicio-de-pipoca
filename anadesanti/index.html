@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vício de Pipoca | Pipocas no Balde</title>
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2459432287802221');
+    fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Outfit & Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            yellow: '#F7C948',
+                            pink: '#E91E63',
+                            'pink-dark': '#880E4F',
+                            cream: '#FFFDFA',
+                            dark: '#1A1A1A'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif']
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-gradient {
+            background: linear-gradient(180deg, #F7C948 0%, #FFFDFA 100%);
+        }
+        .cta-glow {
+            box-shadow: 0 0 20px rgba(233, 30, 99, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-brand-cream font-sans text-brand-dark antialiased">
+    <!-- Meta Pixel Code - Noscript fallback -->
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2459432287802221&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code - Noscript fallback -->
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-gradient pt-12 pb-20 px-6 overflow-hidden">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1 text-center md:text-left">
+                <div class="inline-block bg-white px-4 py-1 rounded-full text-brand-pink font-bold text-sm mb-6 shadow-sm border border-brand-yellow/30">
+                    MÉTODO TESTADO E APROVADO 🍿
+                </div>
+                <h1 class="text-4xl md:text-6xl font-display font-extrabold leading-[1.1] mb-6 tracking-tight">
+                    Fature entre <span class="text-brand-pink">R$ 400 e R$ 800 por Dia</span> com Pipocas no Balde
+                </h1>
+                <p class="text-lg md:text-xl text-gray-700 font-medium mb-10 max-w-xl">
+                    Descubra o método simples para criar um negócio lucrativo em casa, mesmo que você esteja começando do zero e sem equipamentos caros.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row items-center gap-4">
+                    <a href="#preço" class="block w-full sm:w-auto text-center bg-brand-pink hover:bg-brand-pink-dark text-white font-bold py-5 px-10 rounded-2xl text-xl transition-all hover:scale-105 active:scale-95 animate-pulse-slow cta-glow">
+                        QUERO ACESSO IMEDIATO
+                    </a>
+                </div>
+                <p class="mt-4 text-sm text-gray-500 font-medium flex items-center justify-center md:justify-start gap-2">
+                    <i data-lucide="shield-check" class="w-4 h-4 text-green-500"></i> Pagamento Seguro e Acesso Instantâneo
+                </p>
+            </div>
+            
+            <div class="flex-1 relative">
+                <!-- Mockup Placeholder -->
+                <div class="relative w-full aspect-square max-w-md mx-auto">
+                    <div class="absolute -inset-4 bg-brand-pink/10 rounded-full blur-3xl"></div>
+                    <div class="relative z-10 bg-brand-yellow rounded-3xl p-6 shadow-2xl rotate-3 border-8 border-white group hover:rotate-0 transition-transform duration-500">
+                        <!-- Imagem da Capa do Ebook -->
+                        <div class="bg-brand-dark aspect-[3/4] rounded-xl overflow-hidden relative border-4 border-brand-pink/20 bg-brand-yellow/10">
+                            <!-- Nova Foto do Mockup -->
+                            <img src="https://lh3.googleusercontent.com/d/1mgOpy-dxMMiZ7K44cbzozUYWaiwa1I9a" 
+                                 alt="Capa do Ebook" 
+                                 class="w-full h-full object-cover">
+                            
+                            <!-- Camada de Escurecimento e Texto Centralizado -->
+                            <div class="absolute inset-0 bg-black/40 flex items-center justify-center p-6 text-center">
+                                <div class="backdrop-blur-sm bg-white/10 p-6 rounded-2xl border border-white/20 shadow-2xl transform transition-transform group-hover:scale-110">
+                                    <p class="text-white font-display font-black text-2xl md:text-3xl leading-tight drop-shadow-lg decoration-brand-yellow underline decoration-4 underline-offset-8">
+                                        VÍCIO DE <br>
+                                        <span class="text-brand-yellow">PIPOCA</span> <br>
+                                        <span class="text-base font-sans font-bold tracking-widest opacity-90">NO BALDE</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problema Section -->
+    <section class="py-20 px-6 bg-white border-y border-gray-100">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-center mb-12">Cansada de chegar ao fim do mês sem dinheiro?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-brand-cream p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-brand-yellow/20">
+                    <i data-lucide="x-circle" class="w-8 h-8 sm:w-10 sm:h-10 text-brand-pink mb-4"></i>
+                    <p class="font-semibold text-base sm:text-lg">Falta de renda extra?</p>
+                    <p class="text-xs sm:text-sm text-gray-600 mt-2">Você faz de tudo, mas parece que as contas nunca param de chegar.</p>
+                </div>
+                <div class="bg-brand-cream p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-brand-yellow/20">
+                    <i data-lucide="x-circle" class="w-8 h-8 sm:w-10 sm:h-10 text-brand-pink mb-4"></i>
+                    <p class="font-semibold text-base sm:text-lg">Sem ideia de negócio?</p>
+                    <p class="text-xs sm:text-sm text-gray-600 mt-2">Você quer empreender, mas não tem milhares de reais para investir agora.</p>
+                </div>
+                <div class="bg-brand-cream p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-brand-yellow/20">
+                    <i data-lucide="x-circle" class="w-8 h-8 sm:w-10 sm:h-10 text-brand-pink mb-4"></i>
+                    <p class="font-semibold text-base sm:text-lg">Presa no básico?</p>
+                    <p class="text-xs sm:text-sm text-gray-600 mt-2">Acha que precisa de uma estrutura gigante para começar a vender de verdade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solução Section -->
+    <section class="py-24 px-6 bg-brand-cream overflow-hidden">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-center">
+            <div class="flex-1 order-2 md:order-1 bg-brand-yellow/10 rounded-3xl">
+                <img src="https://lh3.googleusercontent.com/d/1Rs7Z3_fLegjhxjalhQ4orcNNFKfN_2Xu" 
+                     alt="Pipoca deliciosa" 
+                     class="rounded-3xl shadow-2xl w-full object-cover aspect-[4/5] -rotate-2 hover:rotate-0 transition-all duration-500"
+                     onerror="this.src='https://images.unsplash.com/photo-1585647347483-22b66260dfff?q=80&w=1000&auto=format&fit=crop'">
+            </div>
+            <div class="flex-1 order-1 md:order-2">
+                <h2 class="text-4xl font-display font-bold mb-6">Eu faturei mais de <span class="text-brand-pink">R$ 7.000</span> no primeiro mês.</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                    Eu não comecei com uma cozinha perfeita, nem com equipamentos profissionais and muito menos com dinheiro sobrando. Eu morava em um apartamento de 45m² e só tinha uma vontade: <strong>mudar minha situação financeira.</strong>
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                    O segredo não é só ter uma pipoca boa. É saber o processo, a montagem e, principalmente, <strong>saber vender.</strong>
+                </p>
+                <div class="bg-brand-yellow/20 p-6 rounded-2xl border-l-8 border-brand-yellow">
+                    <p class="font-bold italic">"O mais importante não é ter estrutura... é começar com o que você tem." - Sara Camile</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O Que Vai Aprender (Benefícios) -->
+    <section class="py-24 px-6 bg-brand-dark text-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-display font-bold mb-4">O que você vai dominar neste eBook:</h2>
+                <p class="text-gray-400 text-lg">Um passo a passo do absoluto zero até os seus primeiros lucros.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Benefício 1 -->
+                <div class="bg-brand-dark/60 p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 hover:border-brand-pink transition-colors">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-pink flex items-center justify-center rounded-xl sm:rounded-2xl mb-4 sm:mb-6 shadow-[0_0_15px_rgba(233,30,99,0.3)]">
+                        <i data-lucide="chef-hat" class="w-5 h-5 sm:w-6 sm:h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-white">Massa e Ponto Perfeito</h3>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">Aprenda a acertar o ponto do caramelo (o detalhe que define tudo) e use os ingredientes secretos que usamos na Vício de Pipoca.</p>
+                </div>
+                <!-- Benefício 2 -->
+                <div class="bg-brand-dark/60 p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 hover:border-brand-pink transition-colors">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-pink flex items-center justify-center rounded-xl sm:rounded-2xl mb-4 sm:mb-6 shadow-[0_0_15px_rgba(233,30,99,0.3)]">
+                        <i data-lucide="package-check" class="w-5 h-5 sm:w-6 sm:h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-white">Montagem Estratégica</h3>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">O segredo do recheio no meio e em cima. Foco nos sabores que mais vendem. Simples e lucrativo.</p>
+                </div>
+                <!-- Benefício 3 -->
+                <div class="bg-brand-dark/60 p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 hover:border-brand-pink transition-colors">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-pink flex items-center justify-center rounded-xl sm:rounded-2xl mb-4 sm:mb-6 shadow-[0_0_15px_rgba(233,30,99,0.3)]">
+                        <i data-lucide="camera" class="w-5 h-5 sm:w-6 sm:h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-white">Vendas nos Stories</h3>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">Use seu Instagram como uma vitrine de desejos. O que postar, como filmar e como criar urgência para vender tudo.</p>
+                </div>
+                <!-- Benefício 4 -->
+                <div class="bg-brand-dark/60 p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 hover:border-brand-pink transition-colors">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-pink flex items-center justify-center rounded-xl sm:rounded-2xl mb-4 sm:mb-6 shadow-[0_0_15px_rgba(233,30,99,0.3)]">
+                        <i data-lucide="calculator" class="w-5 h-5 sm:w-6 sm:h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-white">Controle de Custos</h3>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">Números REAIS. Entenda exatamente quanto custa cada balde e como garantir um lucro de R$ 25 a R$ 27 por unidade.</p>
+                </div>
+                <!-- Benefício 5 -->
+                <div class="bg-brand-dark/60 p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 hover:border-brand-pink transition-colors">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-pink flex items-center justify-center rounded-xl sm:rounded-2xl mb-4 sm:mb-6 shadow-[0_0_15px_rgba(233,30,99,0.3)]">
+                        <i data-lucide="gem" class="w-5 h-5 sm:w-6 sm:h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-white">O Formato Perfeito</h3>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">A técnica secreta para obter pipocas redondas e uniformes.</p>
+                </div>
+                <!-- Benefício 6 -->
+                <div class="bg-brand-dark/60 p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/20 hover:border-brand-pink transition-colors">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-pink flex items-center justify-center rounded-xl sm:rounded-2xl mb-4 sm:mb-6 shadow-[0_0_15px_rgba(233,30,99,0.3)]">
+                        <i data-lucide="clock" class="w-5 h-5 sm:w-6 sm:h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-white">Rotina de 24 Horas</h3>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">Um cronograma exato para você produzir hoje e vender tudo no mesmo dia, criando fluxo de caixa rápido.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Economia e Lucro -->
+    <section class="py-24 px-6 bg-brand-yellow">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-4xl font-display font-black mb-12">Faça as contas comigo:</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="bg-white p-5 sm:p-10 rounded-2xl sm:rounded-3xl shadow-xl text-left">
+                    <h3 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                        <i data-lucide="arrow-down-right" class="text-red-500"></i> Custo de Produção
+                    </h3>
+                    <ul class="space-y-4 font-medium text-lg">
+                        <li class="flex justify-between border-b border-gray-100 pb-2"><span>MILHO PREMIUM</span> <span>R$ 2,35</span></li>
+                        <li class="flex justify-between border-b border-gray-100 pb-2"><span>Recheio Premium</span> <span>R$ 7,20</span></li>
+                        <li class="flex justify-between border-b border-gray-100 pb-2"><span>Embalagem + Tampa</span> <span>R$ 0,80</span></li>
+                        <li class="flex justify-between border-b border-gray-100 pb-2"><span>Gás e Outros</span> <span>~R$ 2,50</span></li>
+                        <li class="flex justify-between text-brand-pink font-extrabold text-2xl pt-4"><span>Custo Total</span> <span>R$ 13,00</span></li>
+                    </ul>
+                </div>
+                <div class="text-brand-dark">
+                    <div class="mb-6 sm:mb-8">
+                        <p class="text-lg sm:text-xl font-bold opacity-70">Preço Sugerido de Venda:</p>
+                        <p class="text-5xl sm:text-6xl font-display font-black">R$ 40,00</p>
+                    </div>
+                    <div class="bg-brand-dark text-white p-5 sm:p-8 rounded-2xl sm:rounded-3xl transform md:scale-110 shadow-2xl">
+                        <p class="text-lg sm:text-xl font-bold text-brand-yellow">QUANTO VOCÊ LUCRA:</p>
+                        <p class="text-4xl sm:text-5xl font-display font-black text-brand-pink my-3 sm:my-4">R$ 27,00</p>
+                        <p class="text-xs sm:text-sm opacity-80 uppercase tracking-widest font-bold text-gray-300">Por unidade vendida</p>
+                    </div>
+                    <p class="mt-8 text-lg font-bold leading-tight">
+                        Vendendo apenas 15 baldes por dia (fácil com nossas estratégias), você já garante uma <span class="bg-white px-2 py-1 rounded">excelente renda diária.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bônus Section -->
+    <section class="py-24 px-6 bg-white">
+        <div class="max-w-4xl mx-auto bg-brand-cream border-4 border-dashed border-brand-pink p-10 md:p-16 rounded-[40px] relative overflow-hidden">
+            <div class="absolute top-0 right-0 bg-brand-pink text-white px-8 py-2 rounded-bl-3xl font-black text-sm uppercase tracking-widest">
+                EXCLUSIVO
+            </div>
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="flex-1 text-center md:text-left">
+                    <h2 class="text-3xl font-display font-extrabold mb-4 uppercase text-brand-pink">Bônus Especial</h2>
+                    <h3 class="text-2xl font-bold mb-6">Script de Stories: Copie e Cole</h3>
+                    <p class="text-gray-600 mb-8 text-lg">
+                        Não sabe o que falar? Eu te dou os scripts exatos de 8 Stories para despertar desejo imediato nos seus seguidores e esgotar seu estoque em minutos.
+                    </p>
+                    <div class="flex items-center gap-4 text-brand-pink-dark font-black text-xl">
+                        <span class="line-through text-gray-400">R$ 97,00</span>
+                        <span class="bg-green-100 text-green-700 px-3 py-1 rounded-lg text-sm">GRÁTIS HOJE</span>
+                    </div>
+                </div>
+                <div class="flex-1 bg-white p-6 rounded-3xl shadow-lg border border-gray-100 flex items-center justify-center transform hover:scale-105 transition-all">
+                    <i data-lucide="smartphone" class="w-16 h-16 text-brand-pink mb-4"></i>
+                    <p class="font-bold text-center">8 Stories Prontos<br>para Converter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Oferta Final -->
+    <section id="preço" class="py-24 px-6 bg-brand-cream">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-display font-extrabold mb-12">A decisão que vai transformar suas finanças:</h2>
+            
+            <div class="bg-white p-5 sm:p-12 rounded-2xl sm:rounded-[50px] shadow-2xl relative border-t-8 border-brand-pink">
+                <p class="text-base sm:text-lg font-bold text-gray-500 line-through mb-2">De R$ 197,00 por apenas:</p>
+                <div class="flex items-center justify-center gap-2 mb-6 sm:mb-8">
+                    <span class="text-5xl sm:text-8xl font-display font-black text-brand-dark">R$ 49,90</span>
+                </div>
+                <p class="text-lg sm:text-xl font-bold text-gray-700 mb-6 sm:mb-10 italic">Pagamento único com acesso vitalício</p>
+                
+                <a href="https://pay.kirvano.com/b10b7bd3-153f-4739-ba3f-af3e9192e5c8?aff=582321fa-0b06-4082-98b7-f1ee4a26fbf2" target="_blank" rel="noopener noreferrer" class="block w-full bg-green-600 hover:bg-green-700 text-white font-black py-6 px-10 rounded-2xl text-2xl transition-all hover:scale-105 active:scale-95 shadow-xl mb-8">
+                    SIM! QUERO MEU EBOOK AGORA
+                </a>
+                
+
+            </div>
+            
+            <!-- Garantia -->
+            <div class="mt-16 flex flex-col md:flex-row items-center justify-center gap-8">
+                <img src="https://cdn-icons-png.flaticon.com/512/1004/1004733.png" class="w-32 h-32 md:w-40 md:h-40" alt="Garantia de 7 dias">
+                <div class="text-left max-w-sm">
+                    <h3 class="text-xl font-bold mb-2">RISCO ZERO: 7 DIAS DE GARANTIA</h3>
+                    <p class="text-gray-600 text-sm">Se você aplicar o método e não gostar ou achar que não é para você, eu devolvo 100% do seu dinheiro. Sem perguntas, sem burocracia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-gray-50 text-center text-gray-500 text-sm border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6">
+            <p class="mb-4 font-bold text-brand-dark">Vício de Pipoca &copy; 2026</p>
+            <p class="mb-8">Este produto não garante resultados milagrosos. O seu faturamento depende da sua dedicação em aplicar os processos de produção e estratégias de vendas ensinados no material.</p>
+            <div class="flex justify-center gap-6 underline">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Inicializa Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
