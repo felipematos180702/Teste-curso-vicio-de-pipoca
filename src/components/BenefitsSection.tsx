@@ -20,13 +20,13 @@ export function BenefitsSection() {
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-display font-bold mb-4 md:mb-6">
             O que você recebe ao se inscrever:
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto">
             Agora, pela primeira vez, estou mostrando todo o passo a passo: produção, fornecedores, marketing, vendas, delivery e gestão para você construir o seu próprio negócio.
           </p>
         </div>
         
         <div className="flex flex-col lg:flex-row gap-8 md:gap-12 items-center">
-          <div className="flex-1 w-full">
+          <div className="flex-1 w-full hidden lg:block">
             <div className="aspect-[3/4] max-w-md mx-auto rounded-3xl overflow-hidden shadow-2xl relative rotate-2 hover:rotate-0 transition-transform duration-500 border-8 border-white bg-brand-cream">
               <img 
                 src="https://lh3.googleusercontent.com/d/1mgOpy-dxMMiZ7K44cbzozUYWaiwa1I9a" 

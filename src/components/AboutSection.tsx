@@ -1,15 +1,15 @@
+import { User } from 'lucide-react';
+
 export function AboutSection() {
     return (
         <section className="py-12 md:py-24 px-4 md:px-6 bg-white overflow-hidden border-t border-gray-100">
             <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 md:gap-16 items-center">
                 <div className="flex-1 w-full relative">
-                    <div className="aspect-[4/5] max-w-[300px] md:max-w-md mx-auto rounded-3xl overflow-hidden bg-brand-dark relative shadow-2xl">
-                        <img 
-                            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop" 
-                            alt="Sara Camile" 
-                            className="w-full h-full object-cover opacity-90 mix-blend-luminosity"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/40 to-transparent flex items-end p-5 md:p-8">
+                    <div className="aspect-[4/5] max-w-[300px] md:max-w-md mx-auto rounded-3xl overflow-hidden bg-brand-dark relative shadow-2xl flex flex-col items-center justify-center text-center p-6 border-2 border-dashed border-white/20">
+                        <User className="w-16 h-16 text-white/30 mb-2" />
+                        <span className="text-white/50 text-xs md:text-sm font-medium mb-12">Espaço para foto da produtora</span>
+                        
+                        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-brand-dark via-brand-dark/80 to-transparent flex items-end p-5 md:p-8 text-left">
                             <div className="text-white">
                                 <h3 className="font-display font-bold text-2xl md:text-4xl mb-1">Sara Camile</h3>
                                 <p className="font-medium text-brand-yellow text-sm md:text-lg">Criadora do Método Vício de Pipoca</p>
