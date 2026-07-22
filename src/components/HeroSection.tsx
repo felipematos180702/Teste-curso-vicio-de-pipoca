@@ -5,10 +5,11 @@ export function HeroSection() {
   return (
     <section className="hero-gradient pt-8 md:pt-12 pb-20 md:pb-32 px-4 md:px-6 overflow-hidden relative">
       <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
-        <div className="inline-block bg-white px-4 py-1 rounded-full text-brand-pink font-bold text-sm mb-8 shadow-sm border border-brand-yellow/30">
-          MÉTODO TESTADO E APROVADO 🍿
-        </div>
-        
+        <img 
+          src="https://lh3.googleusercontent.com/d/1Hn2s-4QKnsXKeKgurl1YfUgYR8EFU5c4" 
+          alt="Vício de Pipoca" 
+          className="h-16 sm:h-20 md:h-28 object-contain mb-6 md:mb-8"
+        />
         <h1 className="text-2xl sm:text-3xl md:text-[46px] font-display font-extrabold leading-[1.1] mb-6 tracking-tight max-w-5xl">
           Aprenda a estratégia que me fez faturar mais de <span className="text-brand-pink">R$70 mil</span> no meu primeiro mês de delivery de Pipoca Gourmet.
         </h1>

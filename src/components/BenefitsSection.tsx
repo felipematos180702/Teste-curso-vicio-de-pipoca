@@ -46,11 +46,20 @@ export function BenefitsSection() {
           <div className="flex-[1.5] w-full">
             <div className="grid grid-cols-2 gap-3 md:gap-6">
               {benefits.map((item, index) => (
-                <div key={index} className="bg-brand-cream p-3 sm:p-4 md:p-6 rounded-xl md:rounded-2xl border border-brand-yellow/30 flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-2 md:gap-4 hover:shadow-lg transition-shadow">
-                  <div className="bg-brand-pink/10 p-2 md:p-3 rounded-lg md:rounded-xl shrink-0">
-                    <item.icon className="w-5 h-5 md:w-6 md:h-6 text-brand-pink" />
+                <div 
+                  key={index} 
+                  className="relative overflow-hidden bg-gradient-to-br from-white via-brand-cream to-[#FFF6E9] p-3.5 sm:p-5 md:p-6 rounded-2xl border border-white/80 shadow-[0_10px_25px_-5px_rgba(247,201,72,0.15),0_4px_10px_-2px_rgba(0,0,0,0.03),inset_0_1.5px_1px_rgba(255,255,255,1)] flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-3 md:gap-4 hover:-translate-y-1 hover:shadow-[0_15px_30px_-5px_rgba(233,30,99,0.18),inset_0_1.5px_1px_rgba(255,255,255,1)] hover:border-brand-pink/40 transition-all duration-300 group"
+                >
+                  {/* Glossy laminated sheen overlay */}
+                  <div className="absolute -top-12 -left-12 w-28 h-28 bg-gradient-to-br from-white/90 via-white/40 to-transparent rounded-full blur-md pointer-events-none group-hover:scale-150 transition-transform duration-500" />
+                  
+                  <div className="bg-gradient-to-br from-brand-pink/15 via-brand-pink/10 to-brand-yellow/20 p-2.5 md:p-3.5 rounded-xl md:rounded-2xl shrink-0 shadow-[inset_0_1px_1px_rgba(255,255,255,0.8),0_2px_6px_rgba(233,30,99,0.1)] border border-brand-pink/20 relative z-10 group-hover:scale-110 transition-transform duration-300">
+                    <item.icon className="w-5 h-5 md:w-6 md:h-6 text-brand-pink drop-shadow-[0_1px_2px_rgba(233,30,99,0.3)]" />
                   </div>
-                  <p className="font-semibold text-gray-800 text-xs sm:text-sm md:text-base leading-snug md:leading-relaxed">{item.text}</p>
+                  
+                  <p className="font-semibold text-gray-800 text-xs sm:text-sm md:text-base leading-snug md:leading-relaxed relative z-10">
+                    {item.text}
+                  </p>
                 </div>
               ))}
             </div>
