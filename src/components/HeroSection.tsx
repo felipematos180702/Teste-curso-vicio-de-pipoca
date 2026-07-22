@@ -9,7 +9,7 @@ export function HeroSection() {
           MÉTODO TESTADO E APROVADO 🍿
         </div>
         
-        <h1 className="text-3xl sm:text-4xl md:text-[46px] font-display font-extrabold leading-[1.1] mb-6 tracking-tight max-w-5xl">
+        <h1 className="text-2xl sm:text-3xl md:text-[46px] font-display font-extrabold leading-[1.1] mb-6 tracking-tight max-w-5xl">
           Aprenda a estratégia que me fez faturar mais de <span className="text-brand-pink">R$70 mil</span> no meu primeiro mês de delivery de Pipoca Gourmet.
         </h1>
         
