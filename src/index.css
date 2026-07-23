@@ -20,4 +20,11 @@
   .cta-glow {
     box-shadow: 0 0 20px rgba(233, 30, 99, 0.4);
   }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
