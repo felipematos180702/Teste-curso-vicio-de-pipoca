@@ -15,17 +15,17 @@ function CountdownTimer() {
     const seconds = timeLeft % 60;
 
     return (
-        <div className="bg-brand-pink/5 border border-brand-pink/20 rounded-2xl p-3 sm:p-4 mb-6 flex flex-row items-center justify-center gap-3 sm:gap-4 text-brand-pink flex-wrap">
-            <div className="flex items-center gap-2">
-                <Clock className="w-5 h-5 shrink-0" />
-                <span className="font-bold text-xs sm:text-sm uppercase tracking-wide">Esta oferta expira em:</span>
+        <div className="bg-brand-pink/5 border border-brand-pink/20 rounded-2xl p-2.5 sm:p-4 mb-6 flex flex-row items-center justify-center gap-2 sm:gap-4 text-brand-pink flex-nowrap">
+            <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+                <Clock className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+                <span className="font-bold text-[11px] sm:text-sm uppercase tracking-tight sm:tracking-wide whitespace-nowrap">Esta oferta expira em:</span>
             </div>
-            <div className="text-2xl sm:text-3xl font-display font-black tracking-tight flex items-center gap-1.5">
-                <div className="bg-white px-2.5 py-1 rounded-lg shadow-sm border border-brand-pink/20 min-w-[3rem] sm:min-w-[3.25rem] text-center">
+            <div className="text-base sm:text-3xl font-display font-black tracking-tight flex items-center gap-1 sm:gap-1.5 shrink-0">
+                <div className="bg-white px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg shadow-sm border border-brand-pink/20 min-w-[2.2rem] sm:min-w-[3.25rem] text-center text-sm sm:text-3xl">
                     {minutes.toString().padStart(2, '0')}
                 </div>
-                <span className="text-brand-pink/50 pb-0.5">:</span>
-                <div className="bg-white px-2.5 py-1 rounded-lg shadow-sm border border-brand-pink/20 min-w-[3rem] sm:min-w-[3.25rem] text-center">
+                <span className="text-brand-pink/50 pb-0.5 text-sm sm:text-3xl">:</span>
+                <div className="bg-white px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg shadow-sm border border-brand-pink/20 min-w-[2.2rem] sm:min-w-[3.25rem] text-center text-sm sm:text-3xl">
                     {seconds.toString().padStart(2, '0')}
                 </div>
             </div>
@@ -94,14 +94,14 @@ export function PricingSection() {
                     </p>
                 </div>
                 
-                <div className="mt-12 bg-white/5 border border-white/10 rounded-3xl p-6 md:p-8 flex flex-col md:flex-row items-center gap-6 max-w-2xl mx-auto text-left">
-                    <div className="w-16 h-16 shrink-0">
+                <div className="mt-8 md:mt-12 bg-white/5 border border-white/10 rounded-2xl md:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-row items-start md:items-center gap-4 sm:gap-5 md:gap-6 max-w-2xl mx-auto text-left">
+                    <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 shrink-0 mt-0.5 md:mt-0">
                         <ShieldCheck className="w-full h-full text-brand-yellow drop-shadow-xl" strokeWidth={1.5} />
                     </div>
                     <div>
-                        <h4 className="text-xl font-display font-bold mb-2">Garantia Incondicional de 7 Dias</h4>
-                        <p className="text-sm text-gray-400 font-medium leading-relaxed">
-                            Seu risco é zero. Você pode se inscrever agora, acessar todo o material e, se dentro de 7 dias você achar que o curso não é para você, basta nos enviar um e-mail que devolveremos 100% do seu dinheiro. Sem burocracia e continuamos amigas.
+                        <h4 className="text-base sm:text-lg md:text-xl font-display font-bold mb-1 md:mb-2">Garantia Incondicional de 7 Dias</h4>
+                        <p className="text-xs sm:text-sm text-gray-400 font-medium leading-relaxed">
+                            Seu risco é zero. Você pode se inscrever agora, acessar todo o material e, se dentro de 7 dias você achar que o curso não é para você, basta nos enviar um e-mail que devolveremos 100% do seu dinheiro.
                         </p>
                     </div>
                 </div>
