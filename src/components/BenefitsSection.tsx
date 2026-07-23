@@ -48,7 +48,7 @@ export function BenefitsSection() {
               {benefits.map((item, index) => (
                 <div 
                   key={index} 
-                  className="relative overflow-hidden bg-gradient-to-br from-white via-brand-cream to-[#FFF6E9] p-3.5 sm:p-5 md:p-6 rounded-2xl border border-white/80 shadow-[0_10px_25px_-5px_rgba(247,201,72,0.15),0_4px_10px_-2px_rgba(0,0,0,0.03),inset_0_1.5px_1px_rgba(255,255,255,1)] flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-3 md:gap-4 hover:-translate-y-1 hover:shadow-[0_15px_30px_-5px_rgba(233,30,99,0.18),inset_0_1.5px_1px_rgba(255,255,255,1)] hover:border-brand-pink/40 transition-all duration-300 group"
+                  className="relative overflow-hidden bg-gradient-to-br from-white via-brand-cream to-[#FFF6E9] p-3.5 sm:p-5 md:p-6 rounded-2xl border border-white/80 shadow-[0_10px_25px_-5px_rgba(247,201,72,0.15),0_4px_10px_-2px_rgba(0,0,0,0.03),inset_0_1.5px_1px_rgba(255,255,255,1)] flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-3 md:gap-4 hover:-translate-y-1 hover:shadow-[0_15px_30px_-5px_rgba(233,30,99,0.18),inset_0_1.5px_1px_rgba(255,255,255,1)] hover:border-brand-pink/40 transition-all duration-300 group"
                 >
                   {/* Glossy laminated sheen overlay */}
                   <div className="absolute -top-12 -left-12 w-28 h-28 bg-gradient-to-br from-white/90 via-white/40 to-transparent rounded-full blur-md pointer-events-none group-hover:scale-150 transition-transform duration-500" />
